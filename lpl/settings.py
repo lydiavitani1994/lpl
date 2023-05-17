@@ -76,8 +76,13 @@ WSGI_APPLICATION = 'lpl.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'lpl_db',
+        'USER': 'yumeng',
+        'PASSWORD': 'yumengpass',
+        'HOST': 'localhost',
     }
 }
 
@@ -126,3 +131,7 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# media settings
+MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_URL = '/media/'
