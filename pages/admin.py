@@ -16,5 +16,4 @@ class MemberAdmin(admin.ModelAdmin):
     list_filter = ('first_name', 'last_name', 'description')
 
 
-
 admin.site.register(Member, MemberAdmin)
