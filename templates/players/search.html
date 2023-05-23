@@ -25,43 +25,21 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="form-group">
-                                <select class="selectpicker search-fields" name="select-brand">
-                                    <option disabled="disabled" selected="selected">Select Brand</option>
-                                    <option>Audi</option>
-                                    <option>BMW</option>
-                                    <option>Honda</option>
-                                    <option>Nissan</option>
+                                <select class="selectpicker search-fields" name="position">
+                                    <option disabled="disabled" selected="selected">Select Position</option>
+                                    {% for position in position_options %}
+                                        <option value="{{position}}">{{position}}</option>
+                                    {% endfor %}
                                 </select>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="form-group">
-                                <select class="selectpicker search-fields" name="select-make">
-                                    <option disabled="disabled" selected="selected">Select Make</option>
-                                    <option>BMW</option>
-                                    <option>Honda</option>
-                                    <option>Lamborghini Huracán</option>
-                                    <option>Sports Car</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                            <div class="form-group">
-                                <select class="selectpicker search-fields" name="select-location">
-                                    <option disabled="disabled" selected="selected">Select Location</option>
-                                    <option>United States</option>
-                                    <option>United Kingdom</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                            <div class="form-group">
-                                <select class="selectpicker search-fields" name="select-year">
-                                    <option disabled="disabled" selected="selected">Select Year</option>
-                                    <option>2016</option>
-                                    <option>2017</option>
-                                    <option>2018</option>
-                                    <option>2019</option>
+                                <select class="selectpicker search-fields" name="team">
+                                    <option disabled="disabled" selected="selected">Select Team</option>
+                                     {% for team in team_options %}
+                                        <option value="{{team}}">{{team}}</option>
+                                    {% endfor %}
                                 </select>
                             </div>
                         </div>
@@ -69,26 +47,18 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="form-group">
-                                <select class="selectpicker search-fields" name="select-type">
-                                    <option disabled="disabled" selected="selected">Select Type Of Car</option>
-                                    <option>New Car</option>
-                                    <option>Used Car</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                            <div class="form-group">
-                                <select class="selectpicker search-fields" name="transmission">
-                                    <option disabled="disabled" selected="selected">Transmission</option>
-                                    <option>Automatic</option>
-                                    <option>Manual</option>
+                                <select class="selectpicker search-fields" name="is_retire">
+                                    <option disabled="disabled" selected="selected">Select Is Retired</option>
+                                    {% for is_retired in is_retire_options %}
+                                        <option value="{{is_retired}}">{{is_retired}}</option>
+                                    {% endfor %}
                                 </select>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="form-group">
                                 <div class="range-slider">
-                                    <div data-min="0" data-max="150000" data-unit="USD" data-min-name="min_price" data-max-name="max_price" class="range-slider-ui ui-slider" aria-disabled="false"></div>
+                                    <div data-min="2013" data-max="2023" data-min-name="min_year" data-max-name="max_year" data-unit="" class="range-slider-ui ui-slider" aria-disabled="false"></div>
                                     <div class="clearfix"></div>
                                 </div>
                             </div>

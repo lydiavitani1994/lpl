@@ -28,7 +28,7 @@ class Player(models.Model):
     )
 
     year_choices = []
-    for y in range(2013, (datetime.now().year+1)):
+    for y in range(2013, (datetime.now().year + 1)):
         year_choices.append((y, y))
 
     honor_choices = (
@@ -61,3 +61,9 @@ class Player(models.Model):
 
     def __str__(self):
         return self.game_id
+
+
+def get_field_options(field):
+    all_values = list(Player.objects.values_list(field, flat=True))
+    options = [option for values in all_values for option in values]
+    return set(options)
