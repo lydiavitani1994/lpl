@@ -6,17 +6,26 @@
                 <div class="list-inline">
                     <a href="tel:+55-4XX-634-7071"><i class="fa fa-phone"></i>+1 408-550-3653</a>
                     <a href="tel:info@themevessel.com"><i class="fa fa-envelope"></i>lydiavitani@gmail.com</a>
-                    <a href="tel:info@themevessel.com"><i class="fa fa-clock-o"></i>Mon-Sun: 9:00am-6:00pm PST</a>
+                    <a href="tel:info@themevessel.com"><i class="fa fa-clock-o"></i>Mon-Sun: 9:00am-6:00pm  PST</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-5">
                 <ul class="top-social-media pull-right">
+                    {% if user.is_authenticated %}
                     <li>
-                        <a href="login.html" class="sign-in"><i class="fa fa-sign-in"></i> Login</a>
+                        <a href="{% url 'dashboard' %}" class="sign-in"><i class="fa fa-tachometer"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="signup.html" class="sign-in"><i class="fa fa-user"></i> Register</a>
+                        <a href="{% url 'logout' %}" class="sign-in"><i class="fa fa-sign-out"></i> Log Out</a>
                     </li>
+                    {% else %}
+                    <li>
+                        <a href="{% url 'login' %}" class="sign-in"><i class="fa fa-sign-in"></i> Login</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'register' %}" class="sign-in"><i class="fa fa-user"></i> Register</a>
+                    </li>
+                    {% endif %}
                 </ul>
             </div>
         </div>
