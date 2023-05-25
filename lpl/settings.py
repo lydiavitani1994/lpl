@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'players.apps.PlayersConfig',
     'pages.apps.PagesConfig',
     'accounts.apps.AccountsConfig',
+    'contacts.apps.ContactsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -160,3 +161,10 @@ MESSAGE_TAGS = {
 
 SITE_ID = 1
 
+# Email
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'fans.lpl777@gmail.com'
+EMAIL_HOST_PASSWORD = 'br4Yoblri01=Rak+2I@9'
+EMAIL_USE_TLS = True
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

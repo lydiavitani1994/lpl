@@ -9739,7 +9739,8 @@ input, input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
     background: #f0151f !important;
 }
 .contact-dealer.modal-header img{
-    width: 75% !important;
+    width: 25% !important;
+    align: middle;
 }
 
 .car-box .footer .cartype{
