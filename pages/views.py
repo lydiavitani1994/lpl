@@ -1,4 +1,7 @@
-from django.shortcuts import render
+from django.contrib import messages
+from django.contrib.auth.models import User
+from django.core.mail import send_mail
+from django.shortcuts import render, redirect
 
 from players.models import Player, get_field_options
 from .models import Member
@@ -37,4 +40,23 @@ def services(request):
 
 
 def contact(request):
+    if request.method == 'POST':
+        name = request.POSt['name']
+        email = request.POSt['email']
+        subject = request.POSt['subject']
+        phone = request.POSt['phone']
+        message = request.POSt['message']
+
+        message_body = 'Name: ' + name + '\nEmail: ' + email + "\nPhone: " + phone + '\nMessage: ' + message
+
+        admin_info = User.objects.get(is_superuser=True)
+        send_mail(
+            subject,
+            message_body,
+            'fans.lpl777@gmail.com',
+            [admin_info.email],
+            fail_silently=False
+        )
+        messages.success(request, 'Thank you for contacting Yumeng!')
+        return redirect('contact')
     return render(request, 'pages/contact.html')

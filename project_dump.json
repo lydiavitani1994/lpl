@@ -1,0 +1,1326 @@
+[
+{
+    "model": "players.player",
+    "pk": 1,
+    "fields": {
+        "game_id": "GALA",
+        "name": "WEI CHEN",
+        "position": "BOT",
+        "team": "RNG",
+        "description": "<p>lpl player</p>",
+        "photo1": "photos/2023/05/18/gala1.png",
+        "photo2": "photos/2023/05/19/gala2.webp",
+        "photo3": "",
+        "first_show_year": 2019,
+        "created_date": "2023-05-18T20:52:43.919Z",
+        "is_retire": false,
+        "honor": "MSI,LPL"
+    }
+},
+{
+    "model": "players.player",
+    "pk": 2,
+    "fields": {
+        "game_id": "Xiaohu",
+        "name": "YUANHAO LI",
+        "position": "TOP,MID",
+        "team": "RNG,WBG",
+        "description": "<p>lpl player</p>",
+        "photo1": "photos/2023/05/18/xiaohu1.png",
+        "photo2": "",
+        "photo3": "",
+        "first_show_year": 2015,
+        "created_date": "2023-05-18T20:54:11.088Z",
+        "is_retire": false,
+        "honor": "MSI,LPL,Demacia"
+    }
+},
+{
+    "model": "players.player",
+    "pk": 3,
+    "fields": {
+        "game_id": "Ming",
+        "name": "SENMING SHI",
+        "position": "SUP",
+        "team": "RNG",
+        "description": "<p>lpl player</p>",
+        "photo1": "photos/2023/05/18/ming1.png",
+        "photo2": "",
+        "photo3": "",
+        "first_show_year": 2017,
+        "created_date": "2023-05-18T20:55:17.173Z",
+        "is_retire": false,
+        "honor": "MSI,LPL,Demacia"
+    }
+},
+{
+    "model": "players.player",
+    "pk": 4,
+    "fields": {
+        "game_id": "Uzi",
+        "name": "ZIHAO JIAN",
+        "position": "BOT",
+        "team": "RNG,OMG,BLG",
+        "description": "<p>lpl player</p>",
+        "photo1": "photos/2023/05/18/uzi1.jpeg",
+        "photo2": "",
+        "photo3": "",
+        "first_show_year": 2013,
+        "created_date": "2023-05-18T21:00:18.411Z",
+        "is_retire": true,
+        "honor": "MSI,LPL"
+    }
+},
+{
+    "model": "players.player",
+    "pk": 5,
+    "fields": {
+        "game_id": "Bin",
+        "name": "ZE-BIN CHEN",
+        "position": "TOP",
+        "team": "RNG,BLG",
+        "description": "<p>lpl player</p>",
+        "photo1": "photos/2023/05/18/bin1.png",
+        "photo2": "",
+        "photo3": "",
+        "first_show_year": 2017,
+        "created_date": "2023-05-18T21:02:35.762Z",
+        "is_retire": false,
+        "honor": "MSI,LPL"
+    }
+},
+{
+    "model": "players.player",
+    "pk": 6,
+    "fields": {
+        "game_id": "Meiko",
+        "name": "Ye Tian",
+        "position": "SUP",
+        "team": "EDG",
+        "description": "<p>lpl player</p>",
+        "photo1": "photos/2023/05/18/meiko1.png",
+        "photo2": "",
+        "photo3": "",
+        "first_show_year": 2015,
+        "created_date": "2023-05-18T21:03:58.786Z",
+        "is_retire": false,
+        "honor": "WORLD,MSI,LPL,Demacia"
+    }
+},
+{
+    "model": "players.player",
+    "pk": 7,
+    "fields": {
+        "game_id": "TheShy",
+        "name": "SEUNG-LOK KANG",
+        "position": "TOP",
+        "team": "IG,WBG",
+        "description": "<p>lpl player</p>",
+        "photo1": "photos/2023/05/18/theshy1.png",
+        "photo2": "",
+        "photo3": "",
+        "first_show_year": 2017,
+        "created_date": "2023-05-18T21:07:25.789Z",
+        "is_retire": false,
+        "honor": "WORLD"
+    }
+},
+{
+    "model": "players.player",
+    "pk": 8,
+    "fields": {
+        "game_id": "Rooike",
+        "name": "UI-JIN SONG",
+        "position": "MID",
+        "team": "IG,TES",
+        "description": "<p>lpl player</p>",
+        "photo1": "photos/2023/05/18/rookie1.png",
+        "photo2": "",
+        "photo3": "",
+        "first_show_year": 2015,
+        "created_date": "2023-05-18T21:12:08.355Z",
+        "is_retire": false,
+        "honor": "WORLD,LPL"
+    }
+},
+{
+    "model": "players.player",
+    "pk": 9,
+    "fields": {
+        "game_id": "Wei",
+        "name": "YANG-WEI YAN",
+        "position": "JUG",
+        "team": "RNG",
+        "description": "<p>lpl player</p>",
+        "photo1": "photos/2023/05/18/wei1.png",
+        "photo2": "",
+        "photo3": "",
+        "first_show_year": 2020,
+        "created_date": "2023-05-18T21:18:45.318Z",
+        "is_retire": false,
+        "honor": "MSI,LPL"
+    }
+},
+{
+    "model": "players.player",
+    "pk": 10,
+    "fields": {
+        "game_id": "Doinb",
+        "name": "JINJU-SI",
+        "position": "MID",
+        "team": "FPX",
+        "description": "<p><strong>Kim Tae-sang</strong>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Korean_language\" title=\"Korean language\">Korean</a>:&nbsp;김태상; born December 30, 1996), better known as&nbsp;<strong>Doinb</strong>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Help:IPA/English\" title=\"Help:IPA/English\">/ˈdɔɪnbi/</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key\" title=\"Help:Pronunciation respelling key\"><em>DOYN-bee</em></a>), is a South Korean&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/League_of_Legends\" title=\"League of Legends\">League of Legends</a></em>&nbsp;player who most recently played for the Chinese team&nbsp;<a href=\"https://en.wikipedia.org/wiki/LNG_Esports\" title=\"LNG Esports\">LNG Esports</a>. Spending almost his entire career in the&nbsp;<a href=\"https://en.wikipedia.org/wiki/League_of_Legends_Pro_League\" title=\"League of Legends Pro League\"><em>League of Legends</em>&nbsp;Pro League</a>&nbsp;(LPL), the highest level of Chinese&nbsp;<em>League of Legends</em>, Doinb was the first player in the LPL to win the title of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Most_valuable_player\" title=\"Most valuable player\">most valuable player</a>&nbsp;twice; he won the title while playing for Qiao Gu Reapers and FunPlus Phoenix, in 2017<a href=\"https://en.wikipedia.org/wiki/Doinb#cite_note-2\">[2]</a>&nbsp;and 2019<a href=\"https://en.wikipedia.org/wiki/Doinb#cite_note-3\">[3]</a>&nbsp;respectively. Doinb won his first international title after he and his team swept&nbsp;<a href=\"https://en.wikipedia.org/wiki/G2_Esports\" title=\"G2 Esports\">G2 Esports</a>&nbsp;in the grand finals of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/2019_League_of_Legends_World_Championship\" title=\"\">2019 World Championship</a>.</p>",
+        "photo1": "photos/2023/05/18/doinb.webp",
+        "photo2": "photos/2023/05/19/Doinb2.webp",
+        "photo3": "photos/2023/05/19/doinb3.webp",
+        "first_show_year": 2016,
+        "created_date": "2023-05-18T22:53:32.846Z",
+        "is_retire": true,
+        "honor": "WORLD,LPL"
+    }
+},
+{
+    "model": "pages.member",
+    "pk": 1,
+    "fields": {
+        "first_name": "Yumeng1",
+        "last_name": "Huang",
+        "description": "Looking for a entry-level SDE/SWE",
+        "photo": "photos/2023/05/17/1.png",
+        "linkedin_link": "https://www.linkedin.com/in/yuumi-huang/",
+        "github_link": "https://github.com/lydiavitani1994",
+        "created_date": "2023-05-16T23:00:26.846Z"
+    }
+},
+{
+    "model": "pages.member",
+    "pk": 2,
+    "fields": {
+        "first_name": "Yumeng2",
+        "last_name": "Huang",
+        "description": "A graduate student in NEU IS",
+        "photo": "photos/2023/05/17/2.png",
+        "linkedin_link": "https://www.linkedin.com/in/yuumi-huang/",
+        "github_link": "https://github.com/lydiavitani1994",
+        "created_date": "2023-05-17T19:12:06.069Z"
+    }
+},
+{
+    "model": "pages.member",
+    "pk": 3,
+    "fields": {
+        "first_name": "Yumeng3",
+        "last_name": "Huang",
+        "description": "Has 3-year experience as a SWE",
+        "photo": "photos/2023/05/17/3.jpeg",
+        "linkedin_link": "https://www.linkedin.com/in/yuumi-huang/",
+        "github_link": "https://github.com/lydiavitani1994",
+        "created_date": "2023-05-17T19:17:22.642Z"
+    }
+},
+{
+    "model": "pages.member",
+    "pk": 4,
+    "fields": {
+        "first_name": "Yumeng4",
+        "last_name": "Huang",
+        "description": "Open to 24 new-grad and 23 intern",
+        "photo": "photos/2023/05/17/4.png",
+        "linkedin_link": "https://www.linkedin.com/in/yuumi-huang/",
+        "github_link": "https://github.com/lydiavitani1994",
+        "created_date": "2023-05-17T19:20:21.346Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "Hang",
+        "last_name": "Yin",
+        "game_id": "Uzi",
+        "player_id": "4",
+        "customer_need": "I want to join the fans group of this player",
+        "city": "Santa Clara",
+        "state": "California",
+        "email": "yinhangmonitor@gmail.com",
+        "phone": "sdfsfsdf",
+        "message": "dsfsfsf",
+        "user_id": 0,
+        "timestamp": "2023-05-24T22:24:26.160Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "Hang",
+        "last_name": "Yin",
+        "game_id": "Uzi",
+        "player_id": "4",
+        "customer_need": "I want to join the fans group of this player",
+        "city": "Santa Clara",
+        "state": "California",
+        "email": "yinhangmonitor@gmail.com",
+        "phone": "ddd",
+        "message": "sdfsdf",
+        "user_id": 3,
+        "timestamp": "2023-05-24T22:42:26.641Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$lc0kNgw7VIzm9S9RXko99V$bbNMVR1/iQ1FZSF0qP4Y3trMDCvxf+1Er+ZN0s3uX2g=",
+        "last_login": "2023-05-17T19:10:58.612Z",
+        "is_superuser": true,
+        "username": "yumenghuang",
+        "first_name": "Yumeng",
+        "last_name": "Huang",
+        "email": "lydiavitani@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-05-16T20:03:32Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$mF04KlGhbFyTejxvOY7K05$PGOIYs+6ZJojBdp6xbJ0a7rMlDUqV3fV+rydLIH9xsg=",
+        "last_login": "2023-05-24T22:34:48.427Z",
+        "is_superuser": false,
+        "username": "Fxuelyu",
+        "first_name": "Hang",
+        "last_name": "Yin",
+        "email": "yinhangmonitor@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-23T23:27:24.407Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!72RrKv2FOZU74fNqEkZWer4zKnwMzGmUiH4LGAVF",
+        "last_login": "2023-05-24T21:10:12.009Z",
+        "is_superuser": false,
+        "username": "yumeng",
+        "first_name": "YUMENG",
+        "last_name": "HUANG",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-24T21:10:11.925Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "fj9cf2gevmziwr8pv1eximl532wdz84j",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEMlkdduu83kIEZpGogKe3K-O_apAvd3nPOfYmA21rC1nkJM4mLAHH63SKmB9cd0B3rrcnU6rrMUe6KPGiXUyN-Xg_376BgL9_aciYLMbE34wDkWDPBmL2yRqnI1sDgMHtncj6TVp4pQSSPml321ljx_gD1bDhL:1pzMY6:MdrCUT17NeZWWmcIiNj0f4sdlonxOHJzdtn-Rp0y2vI",
+        "expire_date": "2023-05-31T19:10:58.615Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "uel4x7pitlc8v3yc1xlmxse1ss1g127o",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEMlkdduu83kIEZpGogKe3K-O_apAvd3nPOfYmA21rC1nkJM4mLAHH63SKmB9cd0B3rrcnU6rrMUe6KPGiXUyN-Xg_376BgL9_aciYLMbE34wDkWDPBmL2yRqnI1sDgMHtncj6TVp4pQSSPml321ljx_gD1bDhL:1pz0x4:MhN9YCQeMTDwnJJaQGMbJG-ymGToz7fOEFTAuu0HA_s",
+        "expire_date": "2023-05-30T20:07:18.025Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook Login",
+        "client_id": "165723519787715",
+        "secret": "8971bc88d2f6c646659969ca5b6d5ac8",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google Login",
+        "client_id": "949898624791-mrdf624r9tfm15eovjm9aga8ghnohqg8.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "yumeng"
+        ],
+        "provider": "google",
+        "uid": "112892218062818770796",
+        "last_login": "2023-05-24T21:10:11.957Z",
+        "date_joined": "2023-05-24T21:10:11.957Z",
+        "extra_data": "{\"iss\": \"https://accounts.google.com\", \"azp\": \"949898624791-mrdf624r9tfm15eovjm9aga8ghnohqg8.apps.googleusercontent.com\", \"aud\": \"949898624791-mrdf624r9tfm15eovjm9aga8ghnohqg8.apps.googleusercontent.com\", \"sub\": \"112892218062818770796\", \"at_hash\": \"5jt886NhkqJz7O66nSpUgA\", \"name\": \"YUMENG HUANG\", \"picture\": \"https://lh3.googleusercontent.com/a/AGNmyxaGoEh092dZ9npSfyuW1TaADKjMIf3U42gq8arb=s96-c\", \"given_name\": \"YUMENG\", \"family_name\": \"HUANG\", \"locale\": \"zh-CN\", \"iat\": 1684962611, \"exp\": 1684966211}"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-05-16T20:09:02.078Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "yumenghuang",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-05-16T23:00:26.854Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-05-16T23:04:53.010Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-05-16T23:18:57.077Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "1",
+        "object_repr": "Yumeng Huang",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-05-16T23:19:13.563Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "1",
+        "object_repr": "Yumeng Huang",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-05-17T19:11:19.959Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "1",
+        "object_repr": "Yumeng Huang",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-05-17T19:12:06.077Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "2",
+        "object_repr": "Yumeng Huang",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-05-17T19:17:22.644Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "3",
+        "object_repr": "Yumeng Huang",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-05-17T19:17:31.243Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "1",
+        "object_repr": "Yumeng1 Huang",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-05-17T19:17:35.189Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "2",
+        "object_repr": "Yumeng2 Huang",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-05-17T19:17:39.394Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "3",
+        "object_repr": "Yumeng3 Huang",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-05-17T19:20:21.350Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "4",
+        "object_repr": "Yumeng4 Huang",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-05-17T21:33:26.613Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "1",
+        "object_repr": "Yumeng1 Huang",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-05-17T21:33:32.484Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "2",
+        "object_repr": "Yumeng2 Huang",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-05-17T21:33:37.599Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "3",
+        "object_repr": "Yumeng3 Huang",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-05-17T21:33:42.627Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "4",
+        "object_repr": "Yumeng4 Huang",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-05-17T21:34:16.099Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "1",
+        "object_repr": "Yumeng1 Huang",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-05-17T21:35:25.773Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "pages",
+            "member"
+        ],
+        "object_id": "4",
+        "object_repr": "Yumeng4 Huang",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-05-18T20:52:43.926Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "1",
+        "object_repr": "GALA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-05-18T20:54:11.096Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "2",
+        "object_repr": "XIAOHU",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2023-05-18T20:55:17.176Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "3",
+        "object_repr": "MING",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2023-05-18T21:00:18.417Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "4",
+        "object_repr": "UZI",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2023-05-18T21:02:35.764Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "5",
+        "object_repr": "BIN",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2023-05-18T21:03:58.794Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "6",
+        "object_repr": "Meiko",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2023-05-18T21:07:25.791Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "7",
+        "object_repr": "TheShy",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2023-05-18T21:08:02.768Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "2",
+        "object_repr": "Xiaohu",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Game id\", \"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2023-05-18T21:08:39.880Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "5",
+        "object_repr": "BIin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Game id\", \"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2023-05-18T21:08:53.863Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "5",
+        "object_repr": "Bin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Game id\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2023-05-18T21:09:33.559Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "1",
+        "object_repr": "GALA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2023-05-18T21:09:53.163Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "4",
+        "object_repr": "Uzi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Game id\", \"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2023-05-18T21:10:51.960Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "3",
+        "object_repr": "Ming",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Game id\", \"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2023-05-18T21:12:08.363Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "8",
+        "object_repr": "Rooike",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2023-05-18T21:18:45.322Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "9",
+        "object_repr": "Wei",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2023-05-18T22:31:21.517Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "1",
+        "object_repr": "GALA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Honor\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2023-05-18T22:31:41.283Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "2",
+        "object_repr": "Xiaohu",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Honor\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2023-05-18T22:31:59.494Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "4",
+        "object_repr": "Uzi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Honor\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2023-05-18T22:32:09.490Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "3",
+        "object_repr": "Ming",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Honor\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2023-05-18T22:32:23.344Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "5",
+        "object_repr": "Bin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Honor\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2023-05-18T22:32:42.208Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "6",
+        "object_repr": "Meiko",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Honor\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2023-05-18T22:32:59.469Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "7",
+        "object_repr": "TheShy",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Honor\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2023-05-18T22:33:07.026Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "8",
+        "object_repr": "Rooike",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Honor\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2023-05-18T22:33:15.290Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "9",
+        "object_repr": "Wei",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Honor\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2023-05-18T22:53:32.858Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "10",
+        "object_repr": "Doinb",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2023-05-19T21:29:10.771Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "1",
+        "object_repr": "GALA",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo2\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2023-05-19T23:07:31.537Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "10",
+        "object_repr": "Doinb",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2023-05-19T23:14:37.272Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "10",
+        "object_repr": "Doinb",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Photo2\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2023-05-19T23:17:31.443Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "10",
+        "object_repr": "Doinb",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo2\", \"Photo3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2023-05-19T23:24:49.439Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "10",
+        "object_repr": "Doinb",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2023-05-19T23:34:21.700Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "object_id": "10",
+        "object_repr": "Doinb",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2023-05-24T20:52:07.966Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2023-05-24T20:52:52.959Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2023-05-24T21:07:30.657Z",
+        "user": [
+            "yumenghuang"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
